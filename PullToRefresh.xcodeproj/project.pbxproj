@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B3E9583C23A32B380013B1CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3E9583B23A32B380013B1CB /* LaunchScreen.storyboard */; };
 		C7A355A219B612D5000DDC72 /* BeatAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A355A119B612D5000DDC72 /* BeatAnimator.swift */; };
 		C7A355D119B62125000DDC72 /* PacmanAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A355D019B62125000DDC72 /* PacmanAnimator.swift */; };
 		C7AC6CD119A7FE6D007107DF /* Refresher.h in Headers */ = {isa = PBXBuildFile; fileRef = C7AC6CD019A7FE6D007107DF /* Refresher.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -56,6 +57,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B3E9583B23A32B380013B1CB /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C74E62271A003E3200DE5910 /* FrameTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrameTests.swift; sourceTree = "<group>"; };
 		C74E62291A0040FD00DE5910 /* BouncesTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BouncesTests.swift; sourceTree = "<group>"; };
 		C7A355A119B612D5000DDC72 /* BeatAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeatAnimator.swift; sourceTree = "<group>"; };
@@ -151,6 +153,7 @@
 				C7AC6CF619A894DF007107DF /* AppDelegate.swift */,
 				C7AEDC181B6D53DA00E09098 /* ViewController */,
 				C7AC6CF719A894DF007107DF /* Main.storyboard */,
+				B3E9583B23A32B380013B1CB /* LaunchScreen.storyboard */,
 				C7AC6CF919A894DF007107DF /* Images.xcassets */,
 				C7956A3D19A8966400CF6484 /* Supporting Files */,
 				C7AEDC191B6D53E000E09098 /* Animator */,
@@ -302,6 +305,7 @@
 			files = (
 				C7AC6CFD19A894DF007107DF /* Main.storyboard in Resources */,
 				C7AC6CFE19A894DF007107DF /* Images.xcassets in Resources */,
+				B3E9583C23A32B380013B1CB /* LaunchScreen.storyboard in Resources */,
 				C7B53A451AC9971C0021914B /* CustomSubview.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -517,10 +521,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "$(SRCROOT)/PullToRefreshDemo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "JCA.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -532,10 +537,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "$(SRCROOT)/PullToRefreshDemo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "JCA.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";

@@ -68,5 +68,12 @@ extension UIScrollView {
     // Manually stop pull to refresh
     public func stopPullToRefresh() {
         pullToRefreshView?.loading = false
+        
+        // 震动反馈
+        if #available(iOS 10.0, *) {
+            let feedBack = UIImpactFeedbackGenerator(style: .light)
+            feedBack.prepare()
+            feedBack.impactOccurred()
+        }
     }
 }
