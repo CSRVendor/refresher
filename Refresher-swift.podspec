@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 
-  s.name         = 'Refresher-Swift'
+  s.name         = 'Refresher-swift'
   s.version      = '0.7.1'
   s.summary      = 'Pull to refresh in Swift'
 
@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   s.social_media_url   = 'https://www.jianshu.com/u/4f3d52fed302'
 
   s.ios.deployment_target = '8.0'
-  s.swift_version = ['5.0']
+  s.swift_version = '5.0'
 
   s.source       = { :git => 'https://github.com/CSRVendor/refresher.git', :tag => s.version }
 
