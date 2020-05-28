@@ -108,7 +108,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		C7AC6CCD19A7FE6D007107DF /* Refresher */ = {
+		C7AC6CCD19A7FE6D007107DF /* Refresher-swift */ = {
 			isa = PBXGroup;
 			children = (
 				C7AC6CEF19A800A8007107DF /* PullToRefreshExtension.swift */,
@@ -117,7 +117,7 @@
 				C7AC6CD019A7FE6D007107DF /* Refresher.h */,
 				C7AC6CCE19A7FE6D007107DF /* Supporting Files */,
 			);
-			path = Refresher;
+			path = "Refresher-swift";
 			sourceTree = "<group>";
 		};
 		C7AC6CCE19A7FE6D007107DF /* Supporting Files */ = {
@@ -185,7 +185,7 @@
 			isa = PBXGroup;
 			children = (
 				C7AC6CF519A894DF007107DF /* PullToRefreshDemo */,
-				C7AC6CCD19A7FE6D007107DF /* Refresher */,
+				C7AC6CCD19A7FE6D007107DF /* Refresher-swift */,
 				C7AC6CD919A7FE6D007107DF /* RefresherTests */,
 				C7D1CF90199BB3C8009FD485 /* Products */,
 			);

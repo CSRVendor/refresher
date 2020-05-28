@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => 'https://github.com/CSRVendor/refresher.git', :tag => s.version }
 
-  s.source_files  = 'Refresher/*.swift'
+  s.source_files  = 'Refresher-swift/*.swift'
 
 end
 
